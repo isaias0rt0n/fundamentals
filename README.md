@@ -8,3 +8,4 @@
 - Programing
 - English
 - Operating Systems
+- DevSecOps
