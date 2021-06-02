@@ -8,6 +8,7 @@
 - Executar os containers nas seguintes portas:
   * Nginx (80:80)   
   * httpd (8080:80)
+  * MySQL (3306:3306)
 ### Dicas:
 - Ao executar o container Mysql usar a variável "-e" para:
   * MYSQL_RANDOM_ROOT__PASSWORD=yes
