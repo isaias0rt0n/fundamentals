@@ -16,3 +16,5 @@
 - Executar ```$ docker container logs``` para localizar a senha randômica criada para o container MySQL
 - Remover todos os containers ao final do exercicio
   * usar ```$ docker container ls -a``` para verificar
+
+## 🔗[Resolução](https://www.notion.so/estudostack/Resolu-o-Desafios-7be503df8c6e475a8c677c61c167c61a)
