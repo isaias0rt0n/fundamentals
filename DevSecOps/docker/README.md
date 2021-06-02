@@ -1,5 +1,24 @@
 # Starting with Docker
 
+## Executar docker sem o sudo - (Princípio do menor privilégio)
+- Adicionando o usuário ao grupo docker
+```
+$ sudo usermod -aG docker ${USER}
+```
+- Para aplicar a nova associação ao grupo, saia do servidor e entre novamente
+```
+$ su - ${USER}
+```
+- Confirme se o seu usuário foi adicionado ao grupo docker digitando:
+```
+$ id -nG
+```
+```
+Saída
+${USER} sudo docker
+```
+
+## Comandos Docker
 #### Iniciando primeito container - (nginx)
 ```
 $ docker container run --publish 80:80 nginx
