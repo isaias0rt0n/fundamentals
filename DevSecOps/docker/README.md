@@ -54,3 +54,9 @@ $ docker container top <name_container>
 ```
 $ docker container rm <id_container>
 ```
+#### Interagingo com container usando bash
+```docker
+$ docker exec -it <name_container> bash
+```
+***
+#### :link:[Desafio 01](https://github.com/isaias0rt0n/fundamentals/blob/main/DevSecOps/docker/desafios/desafio.md)
