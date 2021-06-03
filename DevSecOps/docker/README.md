@@ -60,3 +60,28 @@ $ docker exec -it <name_container> bash
 ```
 ***
 #### :link:[Desafio 01](https://github.com/isaias0rt0n/fundamentals/blob/main/DevSecOps/docker/desafios/desafio.md)
+
+## Docker images
+#### Histórico de uma imagem (versão e variações)
+```
+$ docker image history <imagem:version>
+```
+#### Ver várias informações (low-level) de uma image
+```
+$ docker image inspect <image:version>
+```
+#### Baixando image ou repositório de um registro (docker hub)
+```
+$ docker pull image
+```
+#### Criando tag que referencia uma image
+```
+$ docker image tag <TARGET_IMAGE> <SOURCE_IMAGE>
+```
+#### Fazendo push para um remositório no [docker hub](https://hub.docker.com/)
+```
+$ docker login
+username:
+password:
+$ docker image push <repositorio>
+```
